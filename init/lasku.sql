@@ -3,4 +3,4 @@ CREATE TABLE Lasku (
  summa INT
  tilinro INT
  erpaiva DATE
-)
+);
