@@ -5,4 +5,4 @@ CREATE TABLE Huolto (
   lopunaika TIME,
   loppupäivä DATE,
   onMaaraaika BOOLEAN
-)
+);
