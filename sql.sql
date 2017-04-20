@@ -1,3 +1,10 @@
 
 .read init/auto.sql
+.read init/huolto.sql
+.read init/huoltopaketti.sql
+.read init/laite.sql
+.read init/laitetyyppi.sql
 .read init/lasku.sql
+.read init/maksumuistutus.sql
+.read init/toimenpide.sql
+.read init/varaosa.sql
