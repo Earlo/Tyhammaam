@@ -1,12 +1,12 @@
 /* Auto */
 INSERT INTO Auto
-VALUES ('ABC-123')
+VALUES ('ABC-123');
 
 INSERT INTO Auto
-VALUES ('LAS-51')
+VALUES ('LAS-51');
 
 INSERT INTO Auto
-VALUES ('MOR-0')
+VALUES ('MOR-0';
 
 /* Henkilo */
 INSERT INTO Henkilo
@@ -17,41 +17,41 @@ VALUES ('Lassi Knuuttila','0400-123123','Konemiehentie 2','123456-789A');
 
 /* Huoltopaketti */
 INSERT INTO Huoltopaketti
-VALUES ('Helahoito')
+VALUES ('Helahoito');
 
 INSERT INTO Huoltopaketti
-VALUES ('Vaan nää renkaat')
+VALUES ('Vaan nää renkaat');
 
 INSERT INTO Huoltopaketti
-VALUES ('Nesteet uusiks')
-
+VALUES ('Nesteet uusiks');
+        
 INSERT INTO Huoltopaketti
 VALUES ('Määräaikaishuolto')
 
 /* Laite */
 INSERT INTO Laite
-VALUES ('Ruuvari')
+VALUES ('Ruuvari');
 
 INSERT INTO Laite
-VALUES ('Meisseli')
+VALUES ('Meisseli');
 
 INSERT INTO Laite
-VALUES ('Vasara')
+VALUES ('Vasara');
 
 INSERT INTO Laite
-VALUES ('Tunkki')
+VALUES ('Tunkki');
 
 INSERT INTO Laite
-VALUES ('Lava kaliaa')
+VALUES ('Lava kaliaa');
 
 INSERT INTO Laite
-VALUES ('Nosturi')
+VALUES ('Nosturi');
 
 INSERT INTO Laite
-VALUES ('Hitsausvälineet')
+VALUES ('Hitsausvälineet');
 
 INSERT INTO Laite
-VALUES ('Maalausvälineet')
+VALUES ('Maalausvälineet');
 
 /* Laitetyyppi */
 
