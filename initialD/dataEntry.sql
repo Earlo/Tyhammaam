@@ -26,7 +26,7 @@ INSERT INTO Huoltopaketti
 VALUES ('Nesteet uusiks');
         
 INSERT INTO Huoltopaketti
-VALUES ('Määräaikaishuolto')
+VALUES ('Määräaikaishuolto');
 
 /* Laite */
 INSERT INTO Laite
