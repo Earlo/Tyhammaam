@@ -6,7 +6,7 @@ INSERT INTO Auto
 VALUES ('LAS-51');
 
 INSERT INTO Auto
-VALUES ('MOR-0';
+VALUES ('MOR-0');
 
 /* Henkilo */
 INSERT INTO Henkilo
