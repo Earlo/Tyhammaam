@@ -12,3 +12,5 @@
 .read init/tyaukko.sql
 .read init/varaosa.sql
 
+.read initialD/dataEntry.sql
+
