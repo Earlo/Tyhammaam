@@ -1,3 +1,3 @@
-CREATE TABLE Laitetyyppi (
+CREATE TABLE Laite (
   sarjanro INT PRIMARY KEY
 );
