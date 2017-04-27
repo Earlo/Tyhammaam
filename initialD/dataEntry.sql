@@ -1,5 +1,6 @@
 /* Auto */
-
+INSERT INTO Auto
+VALUES ('ABC-123')
 
 /* Henkilo */
 INSERT INTO Henkilo
