@@ -28,42 +28,60 @@ VALUES ('Nesteet uusiks');
 INSERT INTO Huoltopaketti
 VALUES ('Määräaikaishuolto');
 
-/* Laite */
-INSERT INTO Laite
+/* Laitetyyppi */
+INSERT INTO Laitetyyppi
 VALUES ('Ruuvari');
 
-INSERT INTO Laite
+INSERT INTO Laitetyyppi
 VALUES ('Meisseli');
 
-INSERT INTO Laite
+INSERT INTO Laitetyyppi
 VALUES ('Vasara');
 
-INSERT INTO Laite
+INSERT INTO Laitetyyppi
 VALUES ('Tunkki');
 
-INSERT INTO Laite
+INSERT INTO Laitetyyppi
 VALUES ('Lava kaliaa');
 
-INSERT INTO Laite
+INSERT INTO Laitetyyppi
 VALUES ('Nosturi');
 
-INSERT INTO Laite
+INSERT INTO Laitetyyppi
 VALUES ('Hitsausvälineet');
 
-INSERT INTO Laite
+INSERT INTO Laitetyyppi
 VALUES ('Maalausvälineet');
 
-/* Laitetyyppi */
-
+/* Laite */
+/*INSERT INTO Laite
+VALUES */
 
 /* Lasku */
-
+INSERT INTO Lasku
+VALUES (12345, 100, 123456789, '2017-05-04');
 
 /* Maksumuistutus */
 
 
 /* Toimenpide */
+INSERT INTO Toimenpide
+VALUES ('eturenkaat', 900000);
 
+INSERT INTO Toimenpide
+VALUES ('takarenkaat', 900000);
+
+INSERT INTO Toimenpide
+VALUES ('öljyn vaihto', 900000);
+
+INSERT INTO Toimenpide
+VALUES ('jäähdytysnesteen vaihto', 300000);
+
+INSERT INTO Toimenpide
+VALUES ('pissapojannesteen vaihto', 300000);
+
+INSERT INTO Toimenpide
+VALUES ('suodattimien vaihto', 900000);
 
 /* Tyaajat */
 
