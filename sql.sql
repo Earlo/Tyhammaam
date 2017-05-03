@@ -12,5 +12,15 @@
 .read init/tyaukko.sql
 .read init/varaosa.sql
 
+.read salmarit/kayttaa.sql
+.read salmarit/koostuu.sql
+.read salmarit/korjaa.sql
+.read salmarit/larvitsee.sql
+.read salmarit/omistaa.sql
+.read salmarit/sisaltaa.sql
+.read salmarit/tekee.sql
+.read salmarit/tyyppi.sql
+.read salmarit/varvitsee.sql
+
 .read initialD/dataEntry.sql
 
