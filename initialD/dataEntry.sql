@@ -1,12 +1,12 @@
 /* Auto */
 INSERT INTO Auto
-VALUES ('ABC-123');
+VALUES ('ABC-123', '2000-12-24');
 
 INSERT INTO Auto
-VALUES ('LAS-51');
+VALUES ('LAS-51', '2004-01-04');
 
 INSERT INTO Auto
-VALUES ('MOR-0');
+VALUES ('MOR-0', '2245-02-24');
 
 /* Henkilo */
 INSERT INTO Henkilo
