@@ -1,3 +1,3 @@
-CREATE TABLE Laitetyyppi (
+CREATE TABLE Laite (
   tyyppi CHAR(20) PRIMARY KEY
 );
