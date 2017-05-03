@@ -84,10 +84,12 @@ INSERT INTO Toimenpide
 VALUES ('suodattimien vaihto', 900000);
 
 /* Tyaajat */
-
+INSERT INTO Tyaajat
+VALUES ('123456-789A', 1);
 
 /* Tyaukko */
-
+INSERT INTO Tyaukko
+VALUES ('123456-789A');
 
 /* Varaosa */
 
