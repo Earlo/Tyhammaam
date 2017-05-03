@@ -36,28 +36,28 @@ INSERT INTO Huoltopaketti
 VALUES ('Määräaikaishuolto');
 
 /* Laitetyyppi */
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Ruuvari');
 
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Meisseli');
 
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Vasara');
 
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Tunkki');
 
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Lava kaliaa');
 
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Nosturi');
 
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Hitsausvälineet');
 
-INSERT INTO Laitetyyppi
+INSERT INTO Laite
 VALUES ('Maalausvälineet');
 
 /* Laite */
