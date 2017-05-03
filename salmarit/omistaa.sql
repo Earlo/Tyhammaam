@@ -1,3 +1,6 @@
-CREATE TABLE Auto (
- rekkari CHAR(7) PRIMARY KEY
+CREATE TABLE Omistaa (
+ autorekkari CHAR(7) NOT NULL,
+ henkiloID CHAR(11) NOT NULL,
+ FOREIGN KEY (autorekkari) REFERENCES (Auto(rekkari)),
+ FOREIGN KEY (henkiloID) REFERENCES (Henkilo(sosID))
 );
