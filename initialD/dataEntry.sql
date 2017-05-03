@@ -8,9 +8,16 @@ VALUES ('LAS-51', '2004-01-04');
 INSERT INTO Auto
 VALUES ('MOR-0', '2245-02-24');
 
+INSERT INTO Auto
+VALUES ('OLV-13', '1917-12-06');
+
+
 /* Henkilo */
 INSERT INTO Henkilo
 VALUES ('Lassi Knuuttila','0400-123123','Konemiehentie 2','123456-789A');
+
+INSERT INTO Henkilo
+VALUES ('Pete Kauppinen','0400-4679123','Tyämiehentie 3','OLOVI3-KJEH');
 
 /* Huolto */
 
@@ -91,7 +98,14 @@ VALUES ('123456-789A', 1);
 INSERT INTO Tyaukko
 VALUES ('123456-789A');
 
+INSERT INTO Tyaukko
+VALUES ('OLOVI3-KJEH');
 /* Varaosa */
-
-
-
+INSERT INTO Varaosa
+VALUES ('Mutteri', 900);
+INSERT INTO Varaosa
+VALUES ('Ruuvi', 3904);
+INSERT INTO Varaosa
+VALUES ('Kjeh', 20);
+INSERT INTO Varaosa
+VALUES ('Olovi', 3);
