@@ -1,3 +1,4 @@
+PRAGMA foreign_keys = ON;
 
 .read init/auto.sql
 .read init/henkilo.sql
@@ -11,6 +12,9 @@
 .read init/tyaajat.sql
 .read init/tyaukko.sql
 .read init/varaosa.sql
+
+.read salmarit/korjaa.sql
+.read salmarit/omistaa.sql
 
 .read initialD/dataEntry.sql
 
