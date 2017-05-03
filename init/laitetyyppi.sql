@@ -1,3 +1,3 @@
 CREATE TABLE Laitetyyppi (
-  tyyppi CHAR(20) PRIMARY KEY
+  sarjanro INT PRIMARY KEY
 );
