@@ -23,4 +23,6 @@ PRAGMA foreign_keys = ON;
 .read salmarit/varvitsee.sql
 
 .read initialD/dataEntry.sql
+.read initialD/salmariEntry.sql
+
 
