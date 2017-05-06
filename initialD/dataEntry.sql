@@ -73,22 +73,35 @@ VALUES (12345, 100, 123456789, '2017-05-04');
 
 /* Toimenpide */
 INSERT INTO Toimenpide
-VALUES ('eturenkaat', 900000);
+VALUES ('Eturenkaat', 900000);
 
 INSERT INTO Toimenpide
-VALUES ('takarenkaat', 900000);
+VALUES ('Takarenkaat', 900000);
 
 INSERT INTO Toimenpide
-VALUES ('öljyn vaihto', 900000);
+VALUES ('Öljyn vaihto', 900000);
 
 INSERT INTO Toimenpide
-VALUES ('jäähdytysnesteen vaihto', 300000);
+VALUES ('Jäähdytysnesteen vaihto', 300000);
 
 INSERT INTO Toimenpide
-VALUES ('pissapojannesteen vaihto', 300000);
+VALUES ('Pissapojannesteen vaihto', 300000);
 
 INSERT INTO Toimenpide
-VALUES ('suodattimien vaihto', 900000);
+VALUES ('Suodattimien vaihto', 900000);
+
+INSERT INTO Toimenpide
+VALUES ('Ikkunoiden vaihto', 1800000);
+
+INSERT INTO Toimenpide
+VALUES ('Maalaus', 1800000);
+
+INSERT INTO Toimenpide
+VALUES ('Akun vaihto', 450000);
+
+INSERT INTO Toimenpide
+VALUES ('Kauppareissu', 900000);
+
 
 /* Tyaukko */
 INSERT INTO Tyaukko
