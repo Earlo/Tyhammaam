@@ -1,6 +1,6 @@
 CREATE TABLE Tekee (
-  huoltoID INT NOT NULL,
-  henkiloID CHAR(11),
-  FOREIGN KEY (huoltoID) REFERENCES Huolto(HID),
-  FOREIGN KEY (henkiloID) REFERENCES Tyaukko(tyaukonsosID)
+  HID INT NOT NULL,
+  sosID CHAR(11) NOT NULL,
+  FOREIGN KEY (HID) REFERENCES Huolto(HID),
+  FOREIGN KEY (sosID) REFERENCES Tyaukko(sosID)
 );

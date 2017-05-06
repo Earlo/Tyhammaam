@@ -1,7 +1,7 @@
 CREATE TABLE Varvitsee (
-  toimnimi CHAR(50) NOT NULL,
-  vtyyppi CHAR(20) NOT NULL,
+  nimi CHAR(50) NOT NULL,
+  tyyppi CHAR(20) NOT NULL,
   maara INT,
-  FOREIGN KEY (toimnimi) REFERENCES Toimenpide(nimi),
-  FOREIGN KEY (vtyyppi) REFERENCES Varaosa(tyyppi)
+  FOREIGN KEY (nimi) REFERENCES Toimenpide(nimi),
+  FOREIGN KEY (tyyppi) REFERENCES Varaosa(tyyppi)
 );

@@ -1,6 +1,6 @@
 CREATE TABLE Korjaa (
-  huoltoID INT NOT NULL,
-  autonrekkari CHAR(7) NOT NULL,
-  FOREIGN KEY (huoltoID) REFERENCES Huolto(HID),
-  FOREIGN KEY (autonrekkari) REFERENCES Auto(rekkari)
+  HID INT NOT NULL,
+  rekkari CHAR(7) NOT NULL,
+  FOREIGN KEY (HID) REFERENCES Huolto(HID),
+  FOREIGN KEY (rekkari) REFERENCES Auto(rekkari)
 );

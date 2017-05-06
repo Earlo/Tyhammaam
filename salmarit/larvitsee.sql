@@ -1,6 +1,6 @@
 CREATE TABLE Larvitsee (
-  toimnimi CHAR(50) NOT NULL,
-  ltyyppi CHAR(20) NOT NULL,
-  FOREIGN KEY (toimnimi) REFERENCES Toimenpide(nimi),
-  FOREIGN KEY (ltyyppi) REFERENCES Laite(tyyppi)
+  nimi CHAR(50) NOT NULL,
+  tyyppi CHAR(20) NOT NULL,
+  FOREIGN KEY (nimi) REFERENCES Toimenpide(nimi),
+  FOREIGN KEY (tyyppi) REFERENCES Laite(tyyppi)
 );
