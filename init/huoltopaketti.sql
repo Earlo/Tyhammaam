@@ -1,3 +1,3 @@
 CREATE TABLE HuoltoPaketti (
-  nimi Char(50) PRIMARY KEY
+   nimi Char(50) PRIMARY KEY
 );
