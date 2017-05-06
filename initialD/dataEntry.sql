@@ -33,7 +33,7 @@ INSERT INTO Huoltopaketti
 VALUES ('Nesteet uusiks');
         
 INSERT INTO Huoltopaketti
-VALUES ('Määräaikaishuolto');
+VALUES ('Perushommat');
 
 /* Laitetyyppi */
 INSERT INTO Laite

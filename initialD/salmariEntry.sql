@@ -20,16 +20,16 @@ VALUES ('Nesteet uusiks', 'Öljyn vaihto');
 
 
 INSERT INTO Sisaltaa
-VALUES ('Määräaikaishuolto', 'Jäähdytysnesteen vaihto');
+VALUES ('Perushommat', 'Jäähdytysnesteen vaihto');
 
 INSERT INTO Sisaltaa
-VALUES ('Määräaikaishuolto', 'Pissapojannesteen vaihto');
+VALUES ('Perushommat', 'Pissapojannesteen vaihto');
 
 INSERT INTO Sisaltaa
-VALUES ('Määräaikaishuolto', 'Öljyn vaihto');
+VALUES ('Perushommat', 'Öljyn vaihto');
 
 INSERT INTO Sisaltaa
-VALUES ('Määräaikaishuolto', 'Suodattimien vaihto');
+VALUES ('Perushommat', 'Suodattimien vaihto');
 
 
 INSERT INTO Sisaltaa
