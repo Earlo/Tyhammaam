@@ -1,3 +1,3 @@
 CREATE TABLE Laite (
-  tyyppi CHAR(20) PRIMARY KEY
+  sarjanro CHAR(64) PRIMARY KEY
 );
