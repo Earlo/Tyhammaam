@@ -14,10 +14,10 @@ VALUES ('OLV-13', '1917-12-06');
 
 /* Henkilo */
 INSERT INTO Henkilo
-VALUES ('Lassi Knuuttila','0400-123123','Konemiehentie 2','123456-789A');
+VALUES ('123456-789A','Lassi Knuuttila','0400-123123','Konemiehentie 2');
 
 INSERT INTO Henkilo
-VALUES ('Pete Kauppinen','0400-4679123','Tyämiehentie 3','OLOVI3-KJEH');
+VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Tyämiehentie 3');
 
 /* Huolto */
 
@@ -90,16 +90,13 @@ VALUES ('pissapojannesteen vaihto', 300000);
 INSERT INTO Toimenpide
 VALUES ('suodattimien vaihto', 900000);
 
-/* Tyaajat */
-INSERT INTO Tyaajat
-VALUES ('123456-789A', 1);
-
 /* Tyaukko */
 INSERT INTO Tyaukko
 VALUES ('123456-789A');
 
 INSERT INTO Tyaukko
 VALUES ('OLOVI3-KJEH');
+
 /* Varaosa */
 INSERT INTO Varaosa
 VALUES ('Mutteri', 900);
