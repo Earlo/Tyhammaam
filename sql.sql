@@ -9,7 +9,6 @@ PRAGMA foreign_keys = ON;
 .read init/lasku.sql
 .read init/maksumuistutus.sql
 .read init/toimenpide.sql
-.read init/tyaajat.sql
 .read init/tyaukko.sql
 .read init/varaosa.sql
 
