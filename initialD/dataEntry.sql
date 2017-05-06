@@ -127,7 +127,7 @@ VALUES (12345, 100, 123456789, '2017-05-04');
 
 /* Maksumuistutus */
 INSERT INTO Maksumuistutus
-VALUES (2, 10, '2017-05-04', 12345);
+VALUES (2, 10, 12345);
 
 /* Toimenpide */
 INSERT INTO Toimenpide
