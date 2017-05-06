@@ -62,6 +62,17 @@ VALUES ('Helahoito', 'Akun vaihto');
 INSERT INTO Sisaltaa
 VALUES ('Helahoito', 'Kauppareissu');
 
+INSERT INTO Sisaltaa
+VALUES ('Helahoito', 'Kalianjuonti');
+
+
+INSERT INTO Sisaltaa
+VALUES ('Kaliakeissi', 'Kauppareissu');
+
+INSERT INTO Sisaltaa
+VALUES ('Kaliakeissi', 'Kalianjuonti');
+
+
 
 /*Larvitsee*/
 INSERT INTO Larvitsee
@@ -96,8 +107,11 @@ VALUES ('Ikkunoiden vaihto', 'Meisseli');
 INSERT INTO Larvitsee
 VALUES ('Maalaus', 'Meisseli');
 
+INSERT INTO Larvitsee
+VALUES ('Kalianjuonti', 'Lava kaliaa');
 
-/*Larvitsee*/
+
+/*Varvitsee*/
 INSERT INTO Varvitsee
 VALUES ('Eturenkaat', 'Rengas', 2);
 
@@ -149,3 +163,29 @@ VALUES ('Akun vaihto', 'Akku', 1);
 INSERT INTO Varvitsee
 VALUES ('Kauppareissu', 'Kjeh', 3);
 
+
+INSERT INTO Varvitsee
+VALUES ('Kalianjuonti', 'Olovi', 3);
+
+
+
+/*Koostuu*/
+
+INSERT INTO Koostuu
+VALUES ('1', 'Helahoito');
+
+
+INSERT INTO Koostuu
+VALUES ('9001', 'Nesteet uusiks');
+
+
+INSERT INTO Koostuu
+VALUES ('9002', 'Vaan nää renkaat');
+
+
+INSERT INTO Koostuu
+VALUES ('9003', 'Perushommat');
+
+
+INSERT INTO Koostuu
+VALUES ('9004', 'Kaliakeissi');
