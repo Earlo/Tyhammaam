@@ -21,6 +21,7 @@ PRAGMA foreign_keys = ON;
 .read salmarit/tekee.sql
 .read salmarit/tyyppi.sql
 .read salmarit/varvitsee.sql
+.read salmarit/tilaa.sql
 
 .read initialD/dataEntry.sql
 .read initialD/salmariEntry.sql
