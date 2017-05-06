@@ -17,6 +17,9 @@ INSERT INTO Henkilo
 VALUES ('123456-789A','Lassi Knuuttila','0400-123123','Konemiehentie 2');
 
 INSERT INTO Henkilo
+VALUES ('987654-321A','Henri Thorin-Kosketus','0400-666666','Konemiehentie 2');
+
+INSERT INTO Henkilo
 VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Tyämiehentie 3');
 
 /* Huolto */
@@ -66,6 +69,21 @@ INSERT INTO Laitetyyppi
 VALUES ('Tunkki');
 
 INSERT INTO Laitetyyppi
+VALUES ('Rengasavain');
+
+INSERT INTO Laitetyyppi
+VALUES ('Tratti');
+
+INSERT INTO Laitetyyppi
+VALUES ('Öljypumppu');
+
+INSERT INTO Laitetyyppi
+VALUES ('Kompressori');
+
+INSERT INTO Laitetyyppi
+VALUES ('Suodatinavain');
+
+INSERT INTO Laitetyyppi
 VALUES ('Lava kaliaa');
 
 INSERT INTO Laitetyyppi
@@ -80,43 +98,58 @@ VALUES ('Maalausvälineet');
 /* Laite */
 INSERT INTO Laite
 VALUES ('RUUV4R1');
+
 INSERT INTO Laite
 VALUES ('RUUV4R2');
 
+
 INSERT INTO Laite
 VALUES ('ME155371');
+
 INSERT INTO Laite
 VALUES ('ME155372');
+
 INSERT INTO Laite
 VALUES ('ME155373');
 
+
 INSERT INTO Laite
 VALUES ('V454RA');
+
 INSERT INTO Laite
 VALUES ('V454RB');
+
 INSERT INTO Laite
 VALUES ('V454RC');
 
 
 INSERT INTO Laite
 VALUES ('TUNKK1');
+
 INSERT INTO Laite
 VALUES ('TUNKK2');
 
+
 INSERT INTO Laite
 VALUES ('KEIS4R1');
+
 INSERT INTO Laite
 VALUES ('OLOV13');
 
+
 INSERT INTO Laite
 VALUES ('N0STUR1');
+
 INSERT INTO Laite
 VALUES ('N0STUR2');
 
+
 INSERT INTO Laite
 VALUES ('H1TS22N');
+
 INSERT INTO Laite
 VALUES ('H1TS45N');
+
 
 INSERT INTO Laite
 VALUES ('PEN553L1');
@@ -170,10 +203,46 @@ VALUES ('OLOVI3-KJEH');
 
 /* Varaosa */
 INSERT INTO Varaosa
+VALUES ('Pultti', 1900);
+
+INSERT INTO Varaosa
 VALUES ('Mutteri', 900);
+
 INSERT INTO Varaosa
 VALUES ('Ruuvi', 3904);
+
 INSERT INTO Varaosa
 VALUES ('Kjeh', 20);
+
 INSERT INTO Varaosa
 VALUES ('Olovi', 3);
+
+INSERT INTO Varaosa
+VALUES ('Rengas', 40);
+
+INSERT INTO Varaosa
+VALUES ('Kanisteri öljyä', 10);
+
+INSERT INTO Varaosa
+VALUES ('Kanisteri jäähdytysnestettä', 10);
+
+INSERT INTO Varaosa
+VALUES ('Pullo pissapojannestettä', 10);
+
+INSERT INTO Varaosa
+VALUES ('Öljysuodatin', 15);
+
+INSERT INTO Varaosa
+VALUES ('Polttoainesuodatin', 15);
+
+INSERT INTO Varaosa
+VALUES ('Ikkuna', 35);
+
+INSERT INTO Varaosa
+VALUES ('Pensseli', 22);
+
+INSERT INTO Varaosa
+VALUES ('Maali', 45);
+
+INSERT INTO Varaosa
+VALUES ('Akku', 26);

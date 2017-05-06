@@ -1,3 +1,5 @@
+
+/*Sisältää*/
 .print
 .print //Vaan nää renkaat sisältää:
 SELECT toimnimi 
@@ -21,3 +23,18 @@ WHERE pakettinimi = 'Perushommat';
 SELECT toimnimi 
 FROM Sisaltaa
 WHERE pakettinimi = 'Helahoito';
+
+
+/*Larvitsee*/
+.print
+.print
+.print //Eturenkaiden vaihtoon tarvitaan:
+SELECT tyyppi 
+FROM Larvitsee AND Varvitsee
+WHERE nimi = 'Eturenkaat';
+
+.print
+.print //Öljyn vaihtoon tarvitaan:
+SELECT tyyppi 
+FROM Larvitsee
+WHERE nimi = 'Öljyn vaihto';
