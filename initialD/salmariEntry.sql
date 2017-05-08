@@ -163,10 +163,10 @@ VALUES ('Akun vaihto', 'Akku', 1);
 INSERT INTO Varvitsee
 VALUES ('Kauppareissu', 'Kjeh', 3);
 
+/* Tilaa */
 
 INSERT INTO Varvitsee
 VALUES ('Kalianjuonti', 'Olovi', 3);
-
 
 
 /*Koostuu*/
@@ -189,3 +189,4 @@ VALUES ('9003', 'Perushommat');
 
 INSERT INTO Koostuu
 VALUES ('9004', 'Kaliakeissi');
+
