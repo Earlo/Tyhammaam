@@ -27,28 +27,22 @@ VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Tyämiehentie 3');
 
 /* Huolto */
 INSERT INTO Huolto
-VALUES (1,'1917-12-06','08.00.00','12.00.00','19-12-06','0', 'MOR-0');
+VALUES (9001,'2017-29-03','08:00:00','12:00:00','2017-29-03','0', 'ABC-123');
 
 INSERT INTO Huolto
-VALUES (9001,'2017-29-03','08.00.00','12.00.00','2017-29-03','0', 'ABC-123');
+VALUES (9002,'2017-20-04','11:30:00','14:00:00','2017-20-04','0', 'LAS-51');
 
 INSERT INTO Huolto
-VALUES (9002,'2017-20-04','11.30.00','14.00.00','2017-20-04','0', 'LAS-51');
+VALUES (9003,'2017-20-04','12:00:00','14:30:00','2017-20-04', '1', 'MOR-0');
 
 INSERT INTO Huolto
-VALUES (9003,'2017-20-04','12.00.00','14.30.00','2017-20-04', '1', 'MOR-0');
+VALUES (9004,'2017-20-04','15:30:00','09:00:00','2017-21-04','0', 'OLV-13');
 
 INSERT INTO Huolto
-VALUES (9004,'2017-20-04','15.30.00','09.00.00','2017-21-04','0', 'OLV-13');
-
-INSERT INTO Huolto
-VALUES (9005,'2017-25-04','08.00.00','12.00.00','2017-25-04','1', 'ABC-123');
+VALUES (9005,'2017-25-04','08:00:00','12:00:00','2017-25-04','1', 'ABC-123');
 
 
 /* Huoltopaketti */
-INSERT INTO Huoltopaketti
-VALUES ('Helahoito');
-
 INSERT INTO Huoltopaketti
 VALUES ('Vaan nää renkaat');
 
@@ -138,10 +132,30 @@ VALUES ('TUNKK2', 'Tunkki');
 
 
 INSERT INTO Laite
-VALUES ('KEIS4R1', 'Lava kaliaa');
+VALUES ('R4V41N', 'Rengasavain');
+
 
 INSERT INTO Laite
-VALUES ('OLOV13', 'Lava kaliaa');
+VALUES ('TR4TT1', 'Tratti');
+
+
+INSERT INTO Laite
+VALUES ('P1MPP1', 'Öljypumppu');
+
+
+INSERT INTO Laite
+VALUES ('K0MPUR4', 'Kompressori');
+
+
+INSERT INTO Laite
+VALUES ('4V41N', 'Suodatinavain');
+
+
+INSERT INTO Laite
+VALUES ('KE1S4R1', 'Lava kaliaa');
+
+INSERT INTO Laite
+VALUES ('0L0V13', 'Lava kaliaa');
 
 
 INSERT INTO Laite
@@ -192,19 +206,19 @@ INSERT INTO Toimenpide
 VALUES ('Suodattimien vaihto', 900000);
 
 INSERT INTO Toimenpide
-VALUES ('Ikkunoiden vaihto', 1800000);
+VALUES ('Ikkunoiden vaihto', 3200000);
 
 INSERT INTO Toimenpide
-VALUES ('Maalaus', 1800000);
+VALUES ('Maalaus', 3200000);
 
 INSERT INTO Toimenpide
-VALUES ('Akun vaihto', 450000);
+VALUES ('Akun vaihto', 900000);
 
 INSERT INTO Toimenpide
-VALUES ('Kauppareissu', 900000);
+VALUES ('Kauppareissu', 3200000);
 
 INSERT INTO Toimenpide
-VALUES ('Kalianjuonti', 900000);
+VALUES ('Kalianjuonti', 3200000);
 
 /* Tyaukko */
 INSERT INTO Tyaukko

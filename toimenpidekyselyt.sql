@@ -19,12 +19,6 @@ FROM Sisaltaa
 WHERE pakettinimi = 'Perushommat';
 
 .print
-.print //Helahoito sisältää:
-SELECT toimnimi 
-FROM Sisaltaa
-WHERE pakettinimi = 'Helahoito';
-
-.print
 .print //Kaliakeissi sisältää:
 SELECT toimnimi 
 FROM Sisaltaa

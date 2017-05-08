@@ -31,41 +31,6 @@ VALUES ('Perushommat', 'Pissapojannesteen vaihto');
 INSERT INTO Sisaltaa
 VALUES ('Perushommat', 'Öljyn vaihto');
 
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Eturenkaat');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Takarenkaat');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Öljyn vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Jäähdytysnesteen vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Pissapojannesteen vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Suodattimien vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Ikkunoiden vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Maalaus');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Akun vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Kauppareissu');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Kalianjuonti');
-
-
 INSERT INTO Sisaltaa
 VALUES ('Kaliakeissi', 'Kauppareissu');
 
@@ -172,10 +137,6 @@ VALUES ('Kalianjuonti', 'Olovi', 3);
 /*Koostuu*/
 
 INSERT INTO Koostuu
-VALUES (1, 'Helahoito');
-
-
-INSERT INTO Koostuu
 VALUES (9001, 'Nesteet uusiks');
 
 
@@ -215,6 +176,21 @@ VALUES (9003, '666666-6666');
 
 INSERT INTO Tekee
 VALUES (9004, 'OLOVI3-KJEH');
+
+
+/*Käyttää*/
+INSERT INTO Kayttaa
+VALUES (9002, 'TUNKK1', '11:30:00','14:00:00');
+
+INSERT INTO Kayttaa
+VALUES (9002, 'R4V41N', '11:30:00','14:00:00');
+
+
+INSERT INTO Kayttaa
+VALUES (9003, '4V41N','12:00:00','12:15:00');
+
+INSERT INTO Kayttaa
+VALUES (9003, 'P1MPP1','12:15:00','14:45:00');
 
 
 /*Tilaa*/
