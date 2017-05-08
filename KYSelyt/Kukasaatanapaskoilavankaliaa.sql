@@ -1,0 +1,2 @@
+SELECT sosID
+FROM Tyaukko

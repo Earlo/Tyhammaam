@@ -4,5 +4,6 @@ CREATE TABLE Huolto (
   alkuaika TIME,
   lopunaika TIME,
   loppupäivä DATE,
-  onMaaraaika BOOLEAN
+  onMaaraaika BOOLEAN,
+  rekkari CHAR(7)
 );
