@@ -83,25 +83,20 @@ VALUES ('Eturenkaat', 'Rengas', 2);
 INSERT INTO Varvitsee
 VALUES ('Eturenkaat', 'Pultti', 12);
 
-
 INSERT INTO Varvitsee
 VALUES ('Takarenkaat', 'Rengas', 2);
 
 INSERT INTO Varvitsee
 VALUES ('Takarenkaat', 'Pultti', 12);
 
-
 INSERT INTO Varvitsee
 VALUES ('Öljyn vaihto', 'Kanisteri öljyä', 1);
-
 
 INSERT INTO Varvitsee
 VALUES ('Jäähdytysnesteen vaihto', 'Kanisteri jäähdytysnestettä', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Pissapojannesteen vaihto', 'Pullo pissapojannestettä', 1);
-
 
 INSERT INTO Varvitsee
 VALUES ('Suodattimien vaihto', 'Öljysuodatin', 1);
@@ -109,10 +104,8 @@ VALUES ('Suodattimien vaihto', 'Öljysuodatin', 1);
 INSERT INTO Varvitsee
 VALUES ('Suodattimien vaihto', 'Polttoainesuodatin', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Ikkunoiden vaihto', 'Ikkuna', 6);
-
 
 INSERT INTO Varvitsee
 VALUES ('Maalaus', 'Pensseli', 1);
@@ -120,15 +113,11 @@ VALUES ('Maalaus', 'Pensseli', 1);
 INSERT INTO Varvitsee
 VALUES ('Maalaus', 'Maali', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Akun vaihto', 'Akku', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Kauppareissu', 'Kjeh', 3);
-
-/* Tilaa */
 
 INSERT INTO Varvitsee
 VALUES ('Kalianjuonti', 'Olovi', 3);
@@ -173,6 +162,7 @@ INSERT INTO Tekee
 VALUES (9004, 'OLOVI3-KJEH');
 
 
+<<<<<<< HEAD
 /*Käyttää*/
 INSERT INTO Kayttaa
 VALUES (9002, 'TUNKK1', '2017-04-20', '11:30:00','14:00:00');
@@ -209,6 +199,21 @@ VALUES (9005, 'TR4TT1', '2017-04-23', '08:25:00','08:55:00');
 
 INSERT INTO Tilaa
 VALUES (9001, '123456-789A', 123456, 1);
+=======
+/*Omistaa*/
+INSERT INTO Omistaa
+VALUES ('OLOVI3-KJEH', 'OLV-13');
+
+INSERT INTO Omistaa
+VALUES ('TYYPPI-ÄBÄJ', 'ABC-123');
+
+/*Tilaa*/
+INSERT INTO Tilaa
+VALUES ('9004','OLOVI3-KJEH','12345', 1);
+
+INSERT INTO Tilaa
+VALUES ('9005','TYYPPI-ÄBÄJ','12349', 0);
+>>>>>>> 8438ba1e9a57a7b0925aa5029457e531a4d08971
 
 
 
