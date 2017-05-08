@@ -118,25 +118,20 @@ VALUES ('Eturenkaat', 'Rengas', 2);
 INSERT INTO Varvitsee
 VALUES ('Eturenkaat', 'Pultti', 12);
 
-
 INSERT INTO Varvitsee
 VALUES ('Takarenkaat', 'Rengas', 2);
 
 INSERT INTO Varvitsee
 VALUES ('Takarenkaat', 'Pultti', 12);
 
-
 INSERT INTO Varvitsee
 VALUES ('Öljyn vaihto', 'Kanisteri öljyä', 1);
-
 
 INSERT INTO Varvitsee
 VALUES ('Jäähdytysnesteen vaihto', 'Kanisteri jäähdytysnestettä', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Pissapojannesteen vaihto', 'Pullo pissapojannestettä', 1);
-
 
 INSERT INTO Varvitsee
 VALUES ('Suodattimien vaihto', 'Öljysuodatin', 1);
@@ -144,10 +139,8 @@ VALUES ('Suodattimien vaihto', 'Öljysuodatin', 1);
 INSERT INTO Varvitsee
 VALUES ('Suodattimien vaihto', 'Polttoainesuodatin', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Ikkunoiden vaihto', 'Ikkuna', 6);
-
 
 INSERT INTO Varvitsee
 VALUES ('Maalaus', 'Pensseli', 1);
@@ -155,15 +148,11 @@ VALUES ('Maalaus', 'Pensseli', 1);
 INSERT INTO Varvitsee
 VALUES ('Maalaus', 'Maali', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Akun vaihto', 'Akku', 1);
 
-
 INSERT INTO Varvitsee
 VALUES ('Kauppareissu', 'Kjeh', 3);
-
-/* Tilaa */
 
 INSERT INTO Varvitsee
 VALUES ('Kalianjuonti', 'Olovi', 3);

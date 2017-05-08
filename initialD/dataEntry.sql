@@ -20,7 +20,7 @@ INSERT INTO Henkilo
 VALUES ('987654-321A','Henri Thorin-Kosketus','0400-666666','Konemiehentie 2');
 
 INSERT INTO Henkilo
-VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Tyämiehentie 3');
+VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Kiuruveeltä oon kotosin');
 
 /* Huolto */
 INSERT INTO Huolto
