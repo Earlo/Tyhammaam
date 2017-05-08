@@ -165,6 +165,9 @@ VALUES ('PEN553L1', 'Maalausvälineet');
 INSERT INTO Lasku
 VALUES (12345, 100, 123456789, '2017-05-04');
 
+INSERT INTO Lasku
+VALUES (123456, 150, 12234239, '2017-05-04');
+
 /* Maksumuistutus */
 INSERT INTO Maksumuistutus
 VALUES (2, 10, 12345);

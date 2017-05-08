@@ -4,5 +4,5 @@ CREATE TABLE Kayttaa (
   aika DATE,
   kesto TIME,
   FOREIGN KEY (huoltoID) REFERENCES Huolto(HID),
-  FOREIGN KEY (laitenro) REFERENCES Laitetyyppi(sarjanro)
+  FOREIGN KEY (laitenro) REFERENCES Laite(sarjanro)
 );
