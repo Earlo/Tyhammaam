@@ -34,20 +34,39 @@ INSERT INTO Huolto
 VALUES (1,'1917-12-06','08.00.00','12.00.00','19-12-06','0', 'MOR-0');
 
 INSERT INTO Huolto
-VALUES (9001,'2017-29-03','08.00.00','12.00.00','2017-29-03','0', 'ABC-123');
+VALUES (9001,'2017-29-03','08.00.00','12.00.00','2017-03-29','0', 'ABC-123');
 
 INSERT INTO Huolto
-VALUES (9002,'2017-20-04','11.30.00','14.00.00','2017-20-04','0', 'LAS-51');
+VALUES (9002,'2017-20-04','11.30.00','14.00.00','2016-04-04','0', 'LAS-51');
 
 INSERT INTO Huolto
-VALUES (9003,'2017-20-04','12.00.00','14.30.00','2017-20-04', '1', 'MOR-0');
+VALUES (9003,'2017-20-04','12.00.00','14.30.00','2017-04-04', '1', 'MOR-0');
 
 INSERT INTO Huolto
-VALUES (9004,'2017-20-04','15.30.00','09.00.00','2017-21-04','0', 'OLV-13');
+VALUES (9004,'2017-20-04','15.30.00','09.00.00','2016-09-20','0', 'OLV-13');
 
 INSERT INTO Huolto
-VALUES (9005,'2017-25-04','08.00.00','12.00.00','2017-25-04','1', 'ABC-123');
+VALUES (9005,'2017-25-04','08.00.00','12.00.00','2017-05-20','1', 'ABC-123');
 
+/* Lasku */
+INSERT INTO Lasku
+VALUES (12345, 100.00, 1000100010001000, '2017-04-29');
+
+INSERT INTO Lasku
+VALUES (12346, 400.00, 1000100010002000, '2016-05-04');
+
+INSERT INTO Lasku
+VALUES (12347,   2.60, 0215002150021500, '2017-05-04');
+
+INSERT INTO Lasku
+VALUES (12348, 200.00, 1000100010002000, '2016-10-20');
+
+INSERT INTO Lasku
+VALUES (12349, 300.00, 1000100010002000, '2017-04-20');
+
+/* Maksumuistutus */
+INSERT INTO Maksumuistutus
+VALUES (2, 10, 12347);
 
 /* Huoltopaketti */
 INSERT INTO Huoltopaketti
@@ -113,7 +132,6 @@ VALUES ('RUUV4R1', 'Ruuvari');
 INSERT INTO Laite
 VALUES ('RUUV4R2', 'Ruuvari');
 
-
 INSERT INTO Laite
 VALUES ('ME155371', 'Meisseli');
 
@@ -122,7 +140,6 @@ VALUES ('ME155372', 'Meisseli');
 
 INSERT INTO Laite
 VALUES ('ME155373', 'Meisseli');
-
 
 INSERT INTO Laite
 VALUES ('V454RA', 'Vasara');
@@ -133,13 +150,11 @@ VALUES ('V454RB', 'Vasara');
 INSERT INTO Laite
 VALUES ('V454RC', 'Vasara');
 
-
 INSERT INTO Laite
 VALUES ('TUNKK1', 'Tunkki');
 
 INSERT INTO Laite
 VALUES ('TUNKK2', 'Tunkki');
-
 
 INSERT INTO Laite
 VALUES ('KEIS4R1', 'Lava kaliaa');
@@ -147,13 +162,11 @@ VALUES ('KEIS4R1', 'Lava kaliaa');
 INSERT INTO Laite
 VALUES ('OLOV13', 'Lava kaliaa');
 
-
 INSERT INTO Laite
 VALUES ('N0STUR1', 'Nosturi');
 
 INSERT INTO Laite
 VALUES ('N0STUR2', 'Nosturi');
-
 
 INSERT INTO Laite
 VALUES ('H1TS22N', 'Hitsausvälineet');
@@ -161,17 +174,8 @@ VALUES ('H1TS22N', 'Hitsausvälineet');
 INSERT INTO Laite
 VALUES ('H1TS45N', 'Hitsausvälineet');
 
-
 INSERT INTO Laite
 VALUES ('PEN553L1', 'Maalausvälineet');
-
-/* Lasku */
-INSERT INTO Lasku
-VALUES (12345, 100, 123456789, '2017-05-04');
-
-/* Maksumuistutus */
-INSERT INTO Maksumuistutus
-VALUES (2, 10, 12345);
 
 /* Toimenpide */
 INSERT INTO Toimenpide
