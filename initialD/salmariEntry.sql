@@ -161,21 +161,48 @@ VALUES ('Kalianjuonti', 'Olovi', 3);
 /*Koostuu*/
 
 INSERT INTO Koostuu
-VALUES ('1', 'Helahoito');
+VALUES (1, 'Helahoito');
 
 
 INSERT INTO Koostuu
-VALUES ('9001', 'Nesteet uusiks');
+VALUES (9001, 'Nesteet uusiks');
 
 
 INSERT INTO Koostuu
-VALUES ('9002', 'Vaan nää renkaat');
+VALUES (9002, 'Vaan nää renkaat');
 
 
 INSERT INTO Koostuu
-VALUES ('9003', 'Perushommat');
+VALUES (9003, 'Perushommat');
 
 
 INSERT INTO Koostuu
-VALUES ('9004', 'Kaliakeissi');
+VALUES (9004, 'Kaliakeissi');
+
+
+INSERT INTO Koostuu
+VALUES (9005, 'Perushommat');
+
+
+/*Tekee*/
+
+INSERT INTO Tekee
+VALUES (1, '987654-321A');
+
+
+INSERT INTO Tekee
+VALUES (9001, '987654-321A');
+
+
+INSERT INTO Tekee
+VALUES (9002, '666666-6666');
+
+
+INSERT INTO Tekee
+VALUES (9003, '666666-6666');
+
+
+INSERT INTO Tekee
+VALUES (9004, 'OLOVI3-KJEH');
+
 

@@ -39,7 +39,7 @@ SELECT tyyppi
 FROM Larvitsee
 WHERE nimi = 'Eturenkaat';
 
-SELECT tyyppi 
+SELECT tyyppi, maara
 FROM Varvitsee
 WHERE nimi = 'Eturenkaat';
 
@@ -50,7 +50,7 @@ SELECT tyyppi
 FROM Larvitsee
 WHERE nimi = 'Öljyn vaihto';
 
-SELECT tyyppi 
+SELECT tyyppi, maara
 FROM Varvitsee
 WHERE nimi = 'Öljyn vaihto';
 
