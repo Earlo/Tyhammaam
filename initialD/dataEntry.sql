@@ -1,15 +1,15 @@
 /* Auto */
 INSERT INTO Auto
-VALUES ('ABC-123', '2000-12-24');
+VALUES ('ABC-123', '2000-12-24', 'Volvo');
 
 INSERT INTO Auto
-VALUES ('LAS-51', '2004-01-04');
+VALUES ('LAS-51', '2004-01-04', 'Tesla');
 
 INSERT INTO Auto
-VALUES ('MOR-0', '2245-02-24');
+VALUES ('MOR-0', '2245-02-24', 'Pasi');
 
 INSERT INTO Auto
-VALUES ('OLV-13', '1917-12-06');
+VALUES ('OLV-13', '1917-12-06', 'Volvo');
 
 
 /* Henkilo */
@@ -20,26 +20,29 @@ INSERT INTO Henkilo
 VALUES ('987654-321A','Henri Thorin-Kosketus','0400-666666','Konemiehentie 2');
 
 INSERT INTO Henkilo
+VALUES ('666666-6666','Visa Pollali','0600-666666','Konemiehentie 2');
+
+INSERT INTO Henkilo
 VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Tyämiehentie 3');
 
 /* Huolto */
 INSERT INTO Huolto
-VALUES ('1','1917-12-06','08.00.00','12.00.00','19-12-06','0');
+VALUES (1,'1917-12-06','08.00.00','12.00.00','19-12-06','0', 'MOR-0');
 
 INSERT INTO Huolto
-VALUES ('9001','2017-29-03','08.00.00','12.00.00','2017-29-03','0');
+VALUES (9001,'2017-29-03','08.00.00','12.00.00','2017-29-03','0', 'ABC-123');
 
 INSERT INTO Huolto
-VALUES ('9002','2017-20-04','11.30.00','14.00.00','2017-20-04','0');
+VALUES (9002,'2017-20-04','11.30.00','14.00.00','2017-20-04','0', 'LAS-51');
 
 INSERT INTO Huolto
-VALUES ('9003','2017-20-04','12.00.00','14.30.00','2017-20-04', '1');
+VALUES (9003,'2017-20-04','12.00.00','14.30.00','2017-20-04', '1', 'MOR-0');
 
 INSERT INTO Huolto
-VALUES ('9004','2017-20-04','15.30.00','09.00.00','2017-21-04','0');
+VALUES (9004,'2017-20-04','15.30.00','09.00.00','2017-21-04','0', 'OLV-13');
 
 INSERT INTO Huolto
-VALUES ('9005','2017-25-04','08.00.00','12.00.00','2017-25-04','1');
+VALUES (9005,'2017-25-04','08.00.00','12.00.00','2017-25-04','1', 'ABC-123');
 
 
 /* Huoltopaketti */
@@ -98,64 +101,65 @@ VALUES ('Hitsausvälineet');
 INSERT INTO Laitetyyppi
 VALUES ('Maalausvälineet');
 
+
 /* Laite */
 INSERT INTO Laite
-VALUES ('RUUV4R1');
+VALUES ('RUUV4R1', 'Ruuvari');
 
 INSERT INTO Laite
-VALUES ('RUUV4R2');
-
-
-INSERT INTO Laite
-VALUES ('ME155371');
-
-INSERT INTO Laite
-VALUES ('ME155372');
-
-INSERT INTO Laite
-VALUES ('ME155373');
+VALUES ('RUUV4R2', 'Ruuvari');
 
 
 INSERT INTO Laite
-VALUES ('V454RA');
+VALUES ('ME155371', 'Meisseli');
 
 INSERT INTO Laite
-VALUES ('V454RB');
+VALUES ('ME155372', 'Meisseli');
 
 INSERT INTO Laite
-VALUES ('V454RC');
-
-
-INSERT INTO Laite
-VALUES ('TUNKK1');
-
-INSERT INTO Laite
-VALUES ('TUNKK2');
+VALUES ('ME155373', 'Meisseli');
 
 
 INSERT INTO Laite
-VALUES ('KEIS4R1');
+VALUES ('V454RA', 'Vasara');
 
 INSERT INTO Laite
-VALUES ('OLOV13');
-
-
-INSERT INTO Laite
-VALUES ('N0STUR1');
+VALUES ('V454RB', 'Vasara');
 
 INSERT INTO Laite
-VALUES ('N0STUR2');
+VALUES ('V454RC', 'Vasara');
 
 
 INSERT INTO Laite
-VALUES ('H1TS22N');
+VALUES ('TUNKK1', 'Tunkki');
 
 INSERT INTO Laite
-VALUES ('H1TS45N');
+VALUES ('TUNKK2', 'Tunkki');
 
 
 INSERT INTO Laite
-VALUES ('PEN553L1');
+VALUES ('KEIS4R1', 'Lava kaliaa');
+
+INSERT INTO Laite
+VALUES ('OLOV13', 'Lava kaliaa');
+
+
+INSERT INTO Laite
+VALUES ('N0STUR1', 'Nosturi');
+
+INSERT INTO Laite
+VALUES ('N0STUR2', 'Nosturi');
+
+
+INSERT INTO Laite
+VALUES ('H1TS22N', 'Hitsausvälineet');
+
+INSERT INTO Laite
+VALUES ('H1TS45N', 'Hitsausvälineet');
+
+
+INSERT INTO Laite
+VALUES ('PEN553L1', 'Maalausvälineet');
 
 /* Lasku */
 INSERT INTO Lasku
@@ -201,10 +205,13 @@ VALUES ('Kalianjuonti', 900000);
 
 /* Tyaukko */
 INSERT INTO Tyaukko
-VALUES ('123456-789A');
+VALUES ('666666-6666');
 
 INSERT INTO Tyaukko
 VALUES ('OLOVI3-KJEH');
+
+INSERT INTO Tyaukko
+VALUES ('987654-321A');
 
 /* Varaosa */
 INSERT INTO Varaosa

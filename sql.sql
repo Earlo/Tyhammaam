@@ -55,9 +55,6 @@ PRAGMA foreign_keys = ON;
 .print //creating tekee relation table
 .read salmarit/tekee.sql
 
-.print /creating tyyppi relation table
-.read salmarit/tyyppi.sql
-
 .print //creating varvitsee relation table
 .read salmarit/varvitsee.sql
 

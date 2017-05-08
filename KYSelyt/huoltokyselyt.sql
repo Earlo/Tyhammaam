@@ -30,3 +30,8 @@ WHERE HID = 9004;
 SELECT HID
 FROM Huolto
 WHERE onMaaraaika = 1;
+
+
+/*Tekee*/
+
+
