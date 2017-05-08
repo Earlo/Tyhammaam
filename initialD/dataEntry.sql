@@ -23,7 +23,10 @@ INSERT INTO Henkilo
 VALUES ('666666-6666','Visa Pollali','0600-666666','Konemiehentie 2');
 
 INSERT INTO Henkilo
-VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Tyämiehentie 3');
+VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Kiuruveeltä oon kotosin');
+
+INSERT INTO Henkilo
+VALUES ('133769-1234','Puuha-Pete','0400-3214321','Mikämikämaa');
 
 /* Huolto */
 INSERT INTO Huolto
@@ -233,6 +236,9 @@ VALUES ('OLOVI3-KJEH');
 INSERT INTO Tyaukko
 VALUES ('987654-321A');
 
+INSERT INTO Tyaukko
+VALUES ('133769-1234');
+
 /* Varaosa */
 INSERT INTO Varaosa
 VALUES ('Pultti', 1900);
@@ -278,3 +284,8 @@ VALUES ('Maali', 45);
 
 INSERT INTO Varaosa
 VALUES ('Akku', 26);
+
+
+/*Lomat*/
+INSERT INTO Lomalla
+VALUES ('2017-01-01', '2018-01-01', '133769-1234')
