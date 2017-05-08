@@ -9,7 +9,7 @@ INSERT INTO Auto
 VALUES ('MOR-0', '2245-02-24', 'Pasi');
 
 INSERT INTO Auto
-VALUES ('OLV-13', '1917-12-06', 'Volvo');
+VALUES ('OLV-13', '1917-12-06', 'Lada');
 
 
 /* Henkilo */
@@ -20,10 +20,13 @@ INSERT INTO Henkilo
 VALUES ('987654-321A','Henri Thorin-Kosketus','0400-666666','Konemiehentie 2');
 
 INSERT INTO Henkilo
-VALUES ('666666-6666','Visa Pollali','0600-666666','Konemiehentie 2');
+VALUES ('666666-6666','Visa Pollari','0600-666321','Konemiehentie 2');
 
 INSERT INTO Henkilo
 VALUES ('OLOVI3-KJEH','Pete Kauppinen','0400-4679123','Kiuruveeltä oon kotosin');
+
+INSERT INTO Henkilo
+VALUES ('TYYPPI-ÄBÄJ','Normaali Jäbä','0400-111222','Katukatu 6');
 
 
 /* Huolto */
