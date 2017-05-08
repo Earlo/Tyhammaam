@@ -5,9 +5,9 @@ VALUES ('Vaan nää renkaat', 'Eturenkaat');
 INSERT INTO Sisaltaa
 VALUES ('Vaan nää renkaat', 'Takarenkaat');
 
+
 INSERT INTO Sisaltaa
 VALUES ('Nesteet uusiks', 'Kauppareissu');
-
 
 INSERT INTO Sisaltaa
 VALUES ('Nesteet uusiks', 'Jäähdytysnesteen vaihto');
@@ -192,7 +192,7 @@ VALUES (9003, 'TR4TT1', '2017-04-20', '12:25:00','12:55:00');
 
 
 INSERT INTO Kayttaa
-VALUES (9004, '0L0V13', '2017-04-23', '16:30:00','17:30:00');
+VALUES (9004, '0L0V13', '2017-03-29','10:30:00','12:30:00');
 
 
 INSERT INTO Kayttaa

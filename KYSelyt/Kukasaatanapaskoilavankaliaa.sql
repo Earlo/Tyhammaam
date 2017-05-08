@@ -8,4 +8,5 @@ NATURAL JOIN (
     FROM Kayttaa
     WHERE laitenro = '0L0V13' AND paiva = '2017-04-23'
     GROUP BY alkuaika
-  ));
+  )
+);
