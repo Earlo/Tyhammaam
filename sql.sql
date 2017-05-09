@@ -61,12 +61,11 @@ PRAGMA foreign_keys = ON;
 .print //creating tilaa relation table
 .read salmarit/tilaa.sql
 
-
-
 .print //filling tables with data
 .read initialD/dataEntry.sql
 
 .print //Filling relation tables with data
 .read initialD/salmariEntry.sql
 
-
+.print //creating indexes
+.read initialD/indeksit.sql
