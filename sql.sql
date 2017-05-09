@@ -21,6 +21,9 @@ PRAGMA foreign_keys = ON;
 .print //creating lasku table
 .read init/lasku.sql
 
+.print //creating lomalla table
+.read init/lomalla.sql
+
 .print //creating maksumuistutus table
 .read init/maksumuistutus.sql
 
