@@ -2,7 +2,7 @@
 Find users who have unpaid late laskus
 */
 
-SELECT nimi, puhelin, osoite
+SELECT nimi, puhelin, osoite, Lasku.laskunro
 FROM Maksumuistutus, Lasku, Tilaa, Henkilo
 WHERE 
 maksettud = 0 AND
