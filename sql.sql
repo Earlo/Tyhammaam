@@ -40,9 +40,6 @@ PRAGMA foreign_keys = ON;
 .print //creating koostuu relation table
 .read salmarit/koostuu.sql
 
-.print //creating korjaa relation table
-.read salmarit/korjaa.sql
-
 .print //creating larvitsee relation table
 .read salmarit/larvitsee.sql
 

@@ -31,27 +31,31 @@ VALUES ('TYYPPI-ÄBÄJ','Normaali Jäbä','0400-111222','Katukatu 6');
 INSERT INTO Henkilo
 VALUES ('NOPPIA-EIOO','Teemu Teekkari','0400-021500','Jämeräntaival 4');
 
+INSERT INTO Henkilo
+VALUES ('133769-1234','Puuha-Pete','0400-3214321','Mikämikämaa');
+
 /* Huolto */
 INSERT INTO Huolto
-VALUES (1,'1917-12-06','08:00:00','12.00:00','19-12-06','0', 'MOR-0');
+VALUES (1,'1917-12-06','08:00:00','12:00:00','0', 'MOR-0');
 
 INSERT INTO Huolto
-VALUES (2150,'2008-08-01','08:00:00','12.00:00','2017-06-30','1', '');
+VALUES (2150,'2008-08-01','08:00:00','12:00:00','1', '________');
 
 INSERT INTO Huolto
-VALUES (9001,'2017-03-29','08:00:00','12.00:00','2017-03-29','0', 'ABC-123');
+VALUES (9001,'2017-03-29','08:00:01','12:00:00', '0', 'ABC-123');
 
 INSERT INTO Huolto
-VALUES (9002,'2017-04-20','11:30:00','14.00:00','2016-04-04','0', 'LAS-51');
+VALUES (9002,'2017-03-29','10:30:01','12:30:00', '0', 'OLV-13');
 
 INSERT INTO Huolto
-VALUES (9003,'2017-04-20','12:00:00','14.30:00','2017-04-04', '1', 'MOR-0');
+VALUES (9003,'2017-04-20','11:30:01','14:00:00', '0', 'LAS-51');
 
 INSERT INTO Huolto
-VALUES (9004,'2017-04-20','15:30:00','09.00:00','2016-09-20','0', 'OLV-13');
+VALUES (9004,'2017-04-20','12:00:01','14:30:00', '1', 'MOR-0');
 
 INSERT INTO Huolto
-VALUES (9005,'2017-04-25','08:00:00','12.00:00','2017-05-20','1', 'ABC-123');
+VALUES (9005,'2017-04-23','08:00:01','12:00:00', '1', 'ABC-123');
+
 
 /* Lasku */
 INSERT INTO Lasku
@@ -81,9 +85,6 @@ VALUES (2, 10, 12349);
 
 
 /* Huoltopaketti */
-INSERT INTO Huoltopaketti
-VALUES ('Helahoito');
-
 INSERT INTO Huoltopaketti
 VALUES ('Vaan nää renkaat');
 
@@ -169,10 +170,25 @@ INSERT INTO Laite
 VALUES ('TUNKK2', 'Tunkki');
 
 INSERT INTO Laite
-VALUES ('KEIS4R1', 'Lava kaliaa');
+VALUES ('R4V41N', 'Rengasavain');
 
 INSERT INTO Laite
-VALUES ('OLOV13', 'Lava kaliaa');
+VALUES ('TR4TT1', 'Tratti');
+
+INSERT INTO Laite
+VALUES ('P1MPP1', 'Öljypumppu');
+
+INSERT INTO Laite
+VALUES ('K0MPUR4', 'Kompressori');
+
+INSERT INTO Laite
+VALUES ('4V41N', 'Suodatinavain');
+
+INSERT INTO Laite
+VALUES ('KE1S4R1', 'Lava kaliaa');
+
+INSERT INTO Laite
+VALUES ('0L0V13', 'Lava kaliaa');
 
 INSERT INTO Laite
 VALUES ('N0STUR1', 'Nosturi');
@@ -189,39 +205,53 @@ VALUES ('H1TS45N', 'Hitsausvälineet');
 INSERT INTO Laite
 VALUES ('PEN553L1', 'Maalausvälineet');
 
+/* Lasku */
+INSERT INTO Lasku
+VALUES (12345, 100, 123456789, '2017-05-04');
+
+INSERT INTO Lasku
+VALUES (666666, 100, 123456789, '2017-03-29');
+
+INSERT INTO Lasku
+VALUES (123456, 150, 12234239, '2017-05-04');
+
+/* Maksumuistutus */
+INSERT INTO Maksumuistutus
+VALUES (2, 10, 12345);
+
 /* Toimenpide */
 INSERT INTO Toimenpide
-VALUES ('Eturenkaat', 900000);
+VALUES ('Eturenkaat', 900000, 100);
 
 INSERT INTO Toimenpide
-VALUES ('Takarenkaat', 900000);
+VALUES ('Takarenkaat', 900000, 100);
 
 INSERT INTO Toimenpide
-VALUES ('Öljyn vaihto', 900000);
+VALUES ('Öljyn vaihto', 900000, 25);
 
 INSERT INTO Toimenpide
-VALUES ('Jäähdytysnesteen vaihto', 300000);
+VALUES ('Jäähdytysnesteen vaihto', 300000, 20);
 
 INSERT INTO Toimenpide
-VALUES ('Pissapojannesteen vaihto', 300000);
+VALUES ('Pissapojannesteen vaihto', 300000, 20);
 
 INSERT INTO Toimenpide
-VALUES ('Suodattimien vaihto', 900000);
+VALUES ('Suodattimien vaihto', 900000, 40);
 
 INSERT INTO Toimenpide
-VALUES ('Ikkunoiden vaihto', 1800000);
+VALUES ('Ikkunoiden vaihto', 3200000, 300);
 
 INSERT INTO Toimenpide
-VALUES ('Maalaus', 1800000);
+VALUES ('Maalaus', 3200000, 150);
 
 INSERT INTO Toimenpide
-VALUES ('Akun vaihto', 450000);
+VALUES ('Akun vaihto', 900000, 50);
 
 INSERT INTO Toimenpide
-VALUES ('Kauppareissu', 900000);
+VALUES ('Kauppareissu', 3200000, 2.60);
 
 INSERT INTO Toimenpide
-VALUES ('Kalianjuonti', 900000);
+VALUES ('Kalianjuonti', 3200000, 1);
 
 /* Tyaukko */
 INSERT INTO Tyaukko
@@ -232,6 +262,9 @@ VALUES ('OLOVI3-KJEH');
 
 INSERT INTO Tyaukko
 VALUES ('987654-321A');
+
+INSERT INTO Tyaukko
+VALUES ('133769-1234');
 
 /* Varaosa */
 INSERT INTO Varaosa
@@ -278,3 +311,8 @@ VALUES ('Maali', 45);
 
 INSERT INTO Varaosa
 VALUES ('Akku', 26);
+
+
+/*Lomat*/
+INSERT INTO Lomalla
+VALUES ('2017-01-01', '2018-01-01', '133769-1234')

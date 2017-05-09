@@ -5,9 +5,9 @@ VALUES ('Vaan nää renkaat', 'Eturenkaat');
 INSERT INTO Sisaltaa
 VALUES ('Vaan nää renkaat', 'Takarenkaat');
 
+
 INSERT INTO Sisaltaa
 VALUES ('Nesteet uusiks', 'Kauppareissu');
-
 
 INSERT INTO Sisaltaa
 VALUES ('Nesteet uusiks', 'Jäähdytysnesteen vaihto');
@@ -30,41 +30,6 @@ VALUES ('Perushommat', 'Pissapojannesteen vaihto');
 
 INSERT INTO Sisaltaa
 VALUES ('Perushommat', 'Öljyn vaihto');
-
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Eturenkaat');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Takarenkaat');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Öljyn vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Jäähdytysnesteen vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Pissapojannesteen vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Suodattimien vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Ikkunoiden vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Maalaus');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Akun vaihto');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Kauppareissu');
-
-INSERT INTO Sisaltaa
-VALUES ('Helahoito', 'Kalianjuonti');
-
 
 INSERT INTO Sisaltaa
 VALUES ('Kaliakeissi', 'Kauppareissu');
@@ -161,10 +126,6 @@ VALUES ('Kalianjuonti', 'Olovi', 3);
 /*Koostuu*/
 
 INSERT INTO Koostuu
-VALUES (1, 'Helahoito');
-
-
-INSERT INTO Koostuu
 VALUES (9001, 'Nesteet uusiks');
 
 
@@ -185,11 +146,6 @@ VALUES (9005, 'Perushommat');
 
 
 /*Tekee*/
-
-INSERT INTO Tekee
-VALUES (1, '987654-321A');
-
-
 INSERT INTO Tekee
 VALUES (9001, '987654-321A');
 
@@ -206,12 +162,46 @@ INSERT INTO Tekee
 VALUES (9004, 'OLOVI3-KJEH');
 
 
+
+/*Käyttää*/
+INSERT INTO Kayttaa
+VALUES (9002, 'TUNKK1', '2017-04-20', '11:30:00','14:00:00');
+
+INSERT INTO Kayttaa
+VALUES (9002, 'R4V41N', '2017-04-20', '11:30:00','14:00:00');
+
+
+INSERT INTO Kayttaa
+VALUES (9003, '4V41N', '2017-04-20', '12:00:00','12:15:00');
+
+INSERT INTO Kayttaa
+VALUES (9003, 'P1MPP1', '2017-04-20', '12:25:00','12:55:00');
+
+INSERT INTO Kayttaa
+VALUES (9003, 'TR4TT1', '2017-04-20', '12:25:00','12:55:00');
+
+
+INSERT INTO Kayttaa
+VALUES (9004, '0L0V13', '2017-03-29','10:30:00','12:30:00');
+
+
+INSERT INTO Kayttaa
+VALUES (9005, '4V41N', '2017-04-23', '08:00:00','08:15:00');
+
+INSERT INTO Kayttaa
+VALUES (9005, 'P1MPP1', '2017-04-23', '08:25:00','08:55:00');
+
+INSERT INTO Kayttaa
+VALUES (9005, 'TR4TT1', '2017-04-23', '08:25:00','08:55:00');
+
+
 /*Omistaa*/
 INSERT INTO Omistaa
 VALUES ('OLOVI3-KJEH', 'OLV-13');
 
 INSERT INTO Omistaa
 VALUES ('TYYPPI-ÄBÄJ', 'ABC-123');
+
 
 /*Tilaa*/
 
@@ -220,11 +210,20 @@ VALUES (2150,'NOPPIA-EIOO',12347, 1);
 
 INSERT INTO Tilaa
 VALUES (9004,'OLOVI3-KJEH',12345, 1);
+<<<<<<< HEAD
 
 INSERT INTO Tilaa
 VALUES (9005,'TYYPPI-ÄBÄJ',12349, 0);
 
 
+=======
+
+INSERT INTO Tilaa
+VALUES (9005,'TYYPPI-ÄBÄJ',12349, 0);
+
+INSERT INTO Tilaa
+VALUES (9001, '123456-789A', 123456, 1);
+>>>>>>> df1ca6c453e6a7d2cfeb6cb7a6a99a3c65678280
 
 
 
