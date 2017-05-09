@@ -100,6 +100,8 @@ VALUES (2, 10, 12347);
 INSERT INTO Maksumuistutus
 VALUES (24, 1440, 12349);
 
+INSERT INTO Maksumuistutus
+VALUES (4, 130, 12350);
 
 /* Huoltopaketti */
 INSERT INTO Huoltopaketti
