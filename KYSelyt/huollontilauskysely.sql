@@ -1,9 +1,10 @@
-/*// Ensin selvitä, onko päivänä d kellonaikaan hh:mm:ss huoltotyötä
-  -- Jos ei ole, niin voidaan varata siihen aikaan huolto, joso n, nii ei voi gg
-// Jos on vapaa aika, niin huolto varataan sille ajalle. Mutta ennen kuin huolto oikeasti varataan, niin pitää tietää, onko vapaata ukkoo
-  -- Jos on, nii jäbä duunii
-// Sit kato et on se lava kaljaa vapaana toimenpiteille
--- Jos on nii tää on homma hoidettud
+/*Ensin selvitä, onko päivänä d kellonaikaan hh:mm:ss huoltotyötä
+  Jos ei ole, niin voidaan varata siihen aikaan huolto, joso n, nii ei voi gg
+  Jos on vapaa aika, niin huolto varataan sille ajalle. Mutta ennen kuin huolto oikeasti varataan
+	niin pitää tietää, onko vapaata ukkoo
+  Jos on, nii jäbä duunii
+  Sit kato et on se lava kaljaa vapaana toimenpiteille
+  Jos on nii tää on homma hoidettud
 */
 
 
@@ -16,7 +17,7 @@ NATURAL JOIN(
 	SELECT DISTINCT sosID FROM (
 	(SELECT sosID
 	FROM Tekee
-	WHERE HID = (
+	NATURAL JOIN (
 		SELECT HID
 		FROM Huolto
 		WHERE alkupaiva = '2017-03-29' AND '11:00:00' < lopunaika AND '13:00:00' > alkuaika
@@ -28,7 +29,7 @@ NATURAL JOIN(
 	))
 );
 
-/*Tarkistetaan onko laitteita käytettävissä*/
+--Tarkistetaan onko laitteita käytettävissä
 SELECT sarjanro
 FROM Laite
 WHERE tyyppi = 'Lava kaliaa'
@@ -37,7 +38,7 @@ SELECT laitenro
 FROM Kayttaa
 WHERE paiva = '2017-03-29' AND '11:01:00' < loppuaika AND '13:00:00' > alkuaika;
 
-/*Tarkistetaan mitä varaosia tarvitaan, paljonko ja onko niitä*/
+--Tarkistetaan mitä varaosia tarvitaan, paljonko ja onko niitä
 
 SELECT tyyppi, maara
 FROM Varvitsee
@@ -58,7 +59,7 @@ FROM Varaosa
 WHERE tyyppi = 'Kjeh';
 
 
-/*Jos vaatimukset täyttyvät, luodaan uusi huolto*/
+--Jos vaatimukset täyttyvät, luodaan uusi huolto.
 INSERT INTO Huolto
 VALUES (9006,'2017-03-29','11:00:00','12:00:00', '1', 'OLV-13', 'OLOVI3-KJEH');
 
