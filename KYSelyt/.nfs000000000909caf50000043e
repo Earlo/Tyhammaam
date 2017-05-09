@@ -1,0 +1,2 @@
+SELECT * 
+FROM Auto, Henkilo, Huolto, Huoltopaketti, Laite, Laitetyyppi, Lasku, Lomalla, Maksumuistutus, Toimenpide, Tyaukko, Varaosa;

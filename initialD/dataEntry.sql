@@ -114,6 +114,9 @@ VALUES ('Perushommat');
 INSERT INTO Huoltopaketti
 VALUES ('Kaliakeissi');
 
+INSERT INTO Huoltopaketti
+VALUES ('Maalaushommat');
+
 /* Laitetyyppi */
 INSERT INTO Laitetyyppi
 VALUES ('Ruuvari');
@@ -248,9 +251,6 @@ VALUES ('Ikkunoiden vaihto', 3200000, 300);
 
 INSERT INTO Toimenpide
 VALUES ('Maalaus', 3200000, 150);
-
-INSERT INTO Toimenpide
-VALUES ('Akun vaihto', 900000, 50);
 
 INSERT INTO Toimenpide
 VALUES ('Kauppareissu', 3200000, 2.60);

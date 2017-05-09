@@ -1,5 +1,5 @@
 CREATE TABLE Lomalla (
 alku DATE,
 loppu DATE,
-sosID CHAR(7) REFERENCES Tyaukko(sosID)
+sosID CHAR(7) REFERENCES Tyaukko(sosID) ON DELETE CASCADE
 );
