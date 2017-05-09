@@ -13,17 +13,22 @@ NATURAL JOIN(
 	SELECT sosID
 	FROM Tyaukko
 	EXCEPT
-
-	SELECT sosID
+	SELECT DISTINCT sosID FROM (
+	(SELECT sosID
 	FROM Tekee
 	WHERE HID = (
 		SELECT HID
 		FROM Huolto
-		WHERE alkupaiva = '2017-03-29' AND '11:00:00' < lopunaika AND '13:00:00' > alkuaika 
+		WHERE alkupaiva = '2017-03-29' AND '11:00:00' < lopunaika AND '13:00:00' > alkuaika
 	)
+	UNION
+	SELECT sosID
+	FROM Lomalla
+	WHERE alku <= '2017-03-29' AND '2017-03-29' <= loppu
+	))
 );
 
-/*RAIDE 2*/
+/*Tarkistetaan onko laitteita käytettävissä*/
 SELECT sarjanro
 FROM Laite
 WHERE tyyppi = 'Lava kaliaa'
@@ -32,9 +37,30 @@ SELECT laitenro
 FROM Kayttaa
 WHERE paiva = '2017-03-29' AND '11:01:00' < loppuaika AND '13:00:00' > alkuaika;
 
+/*Tarkistetaan mitä varaosia tarvitaan, paljonko ja onko niitä*/
 
+SELECT tyyppi, maara
+FROM Varvitsee
+WHERE nimi = 'Kauppareissu';
+
+SELECT tyyppi, maara
+FROM Varvitsee
+WHERE nimi = 'Kalianjuonti';
+
+
+SELECT tyyppi, maara
+FROM Varaosa
+WHERE tyyppi = 'Olovi';
+
+
+SELECT tyyppi, maara
+FROM Varaosa
+WHERE tyyppi = 'Kjeh';
+
+
+/*Jos vaatimukset täyttyvät, luodaan uusi huolto*/
 INSERT INTO Huolto
-VALUES (9006,'2017-03-29','11:00:00','12:00:00', '1', 'OLV-13');
+VALUES (9006,'2017-03-29','11:00:00','12:00:00', '1', 'OLV-13', 'OLOVI3-KJEH');
 
 INSERT INTO Koostuu
 VALUES (9006, 'Kaliakeissi');
@@ -48,27 +74,3 @@ VALUES (9006, 'KE1S4R1', '2017-03-29','11:00:00','12:00:00');
 INSERT INTO Tilaa
 VALUES (9006, 'OLOVI3-KJEH', 666666, 0);
 
-/*RAIDE 6*/
-SELECT sarjanro
-FROM Laite
-WHERE tyyppi = 'Lava kaliaa'
-EXCEPT
-SELECT laitenro
-FROM Kayttaa
-WHERE paiva = '2017-03-29' AND '11:01:00' < loppuaika AND '13:00:00' > alkuaika;
-
-
-INSERT INTO Huolto
-VALUES (9006,'2017-03-29','11:00:00','12:00:00', '1', 'OLV-13');
-
-INSERT INTO Koostuu
-VALUES (9006, 'Kaliakeissi');
-
-INSERT INTO Tekee
-VALUES (9006, 'OLOVI3-KJEH');
-
-INSERT INTO Kayttaa
-VALUES (9006, 'KE1S4R1', '2017-03-29','11:00:00','12:00:00');
-
-INSERT INTO Tilaa
-VALUES (9006, 'OLOVI3-KJEH', 666666, 0);

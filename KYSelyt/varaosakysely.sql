@@ -10,19 +10,13 @@ WHERE nimi = 'Takarenkaat';
 --selvitetään paljonko varastossa on
 SELECT maara
 FROM Varaosa
-WHERE tyyppi = 'Rengas'
-EXCEPT
-SELECT laitenro
-FROM Kayttaa
-WHERE paiva = '2017-03-29' AND '11:01:00' < loppuaika AND '13:00:00' > alkuaika;
+WHERE tyyppi = 'Rengas';
+
 
 SELECT maara
 FROM Varaosa
-WHERE tyyppi = 'Pultti'
-EXCEPT
-SELECT laitenro
-FROM Kayttaa
-WHERE paiva = '2017-03-29' AND '11:01:00' < loppuaika AND '13:00:00' > alkuaika;
+WHERE tyyppi = 'Pultti';
+
 
 
 --varataan huolto, jos varaosia on tarpeeksi. jos ei, alla olevaa ei suoriteta

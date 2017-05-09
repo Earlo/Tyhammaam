@@ -31,11 +31,15 @@ VALUES ('Perushommat', 'Pissapojannesteen vaihto');
 INSERT INTO Sisaltaa
 VALUES ('Perushommat', 'Öljyn vaihto');
 
+
 INSERT INTO Sisaltaa
 VALUES ('Kaliakeissi', 'Kauppareissu');
 
 INSERT INTO Sisaltaa
 VALUES ('Kaliakeissi', 'Kalianjuonti');
+
+
+
 
 
 
@@ -71,6 +75,7 @@ VALUES ('Ikkunoiden vaihto', 'Meisseli');
 
 INSERT INTO Larvitsee
 VALUES ('Maalaus', 'Meisseli');
+
 
 INSERT INTO Larvitsee
 VALUES ('Kalianjuonti', 'Lava kaliaa');
@@ -112,9 +117,6 @@ VALUES ('Maalaus', 'Pensseli', 1);
 
 INSERT INTO Varvitsee
 VALUES ('Maalaus', 'Maali', 1);
-
-INSERT INTO Varvitsee
-VALUES ('Akun vaihto', 'Akku', 1);
 
 INSERT INTO Varvitsee
 VALUES ('Kauppareissu', 'Kjeh', 3);
