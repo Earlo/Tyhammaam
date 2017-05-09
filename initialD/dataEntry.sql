@@ -34,6 +34,9 @@ VALUES ('NOPPIA-EIOO','Teemu Teekkari','0400-021500','Jämeräntaival 4');
 INSERT INTO Henkilo
 VALUES ('133769-1234','Puuha-Pete','0400-3214321','Mikämikämaa');
 
+INSERT INTO Henkilo
+VALUES ('777777-7777','Henri Hyyryläinen','0400-021500','Jebuntie 46');
+
 /* Huolto */
 INSERT INTO Huolto
 VALUES (1,'1917-12-06','08:00:00','12:00:00','0', 'MOR-0');
@@ -56,6 +59,11 @@ VALUES (9004,'2017-04-20','12:00:01','14:30:00', '1', 'MOR-0');
 INSERT INTO Huolto
 VALUES (9005,'2017-04-23','08:00:01','12:00:00', '1', 'ABC-123');
 
+INSERT INTO Huolto
+VALUES (9010,'2017-04-23','08:00:01','12:00:00', '1', 'ABC-123');
+
+INSERT INTO Huolto
+VALUES (9011,'2017-04-23','08:00:01','12:00:00', '1', 'ABC-123');
 
 /* Lasku */
 INSERT INTO Lasku
@@ -81,7 +89,7 @@ INSERT INTO Maksumuistutus
 VALUES (2, 10, 12347);
 
 INSERT INTO Maksumuistutus
-VALUES (2, 10, 12349);
+VALUES (24, 1440, 12349);
 
 
 /* Huoltopaketti */
@@ -215,9 +223,7 @@ VALUES (666666, 100, 123456789, '2017-03-29');
 INSERT INTO Lasku
 VALUES (123456, 150, 12234239, '2017-05-04');
 
-/* Maksumuistutus */
-INSERT INTO Maksumuistutus
-VALUES (2, 10, 12345);
+
 
 /* Toimenpide */
 INSERT INTO Toimenpide
